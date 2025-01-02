@@ -92,15 +92,14 @@ The `data` folder contains expert trajectories for various MetaWorld tasks, reco
 | button-press  | shake            | strong               | 0.40       |    6649.4      |
 | button-press  |    translation         | strong               | 0.40       |    6671.8      |
 | button-press  | zoom         | strong               | 0.40       |     6671.8     |
-| door-close  | rotation            | strong               | 0.40       |          |
-| door-close  | shake            | strong               | 0.40       |          |
-| door-close  |    translation         | strong               | 0.40       |          |
-| door-close  | zoom         | strong               | 0.40       |          |
+| door-close  | rotation            | strong               | 1.00       |     9547.2     |
+| door-close  | shake            | strong               | 1.00       |    9554.9      |
+| door-close  |    translation         | strong               | 1.00       |    9547.2      |
+| door-close  | zoom         | strong               | 1.00       |      9547.2     |
 
 ## Future Works
 
 - **Enhanced Randomization**: Implement more sophisticated randomization strategies for camera parameters.
-- **Real-Time Control Interface**: Develop a real-time control interface to interact with the environment during training and testing.
 - **Multi-Modal Trajectories**: Record trajectories under multiple camera modes simultaneously, providing richer data for analysis.
 - **Support for More Environments**: Extend the wrapper to support more simulators.
 
@@ -111,7 +110,7 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ---
 
