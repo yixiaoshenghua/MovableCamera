@@ -90,12 +90,21 @@ The `data` folder contains expert trajectories for various MetaWorld tasks, reco
 |:------------:|:-------------:|:-------------:|:-------------:|:-----------:|
 | button-press  | rotation            | strong               | 0.40       |     6671.8     |
 | button-press  | shake            | strong               | 0.40       |    6649.4      |
-| button-press  |    translation         | strong               | 0.40       |    6671.8      |
+| button-press  |    translation         | strong           | 0.40       |    6671.8      |
 | button-press  | zoom         | strong               | 0.40       |     6671.8     |
 | door-close  | rotation            | strong               | 1.00       |     9547.2     |
 | door-close  | shake            | strong               | 1.00       |    9554.9      |
 | door-close  |    translation         | strong               | 1.00       |    9547.2      |
 | door-close  | zoom         | strong               | 1.00       |      9547.2     |
+| coffee-push  | rotation            | strong               | 0.20       |      1450.7     |
+| coffee-push  | shake            | strong               | 0.30       |    3471.4     |
+| coffee-push  |    translation         | strong      | 0.20       |     1450.7      |
+| coffee-push  | zoom         | strong               | 0.20       |      1450.7     |
+| lever-pull  | rotation            | strong               | 0.30       |     4781.4     |
+| lever-pull  | shake            | strong               | 0.30       |    4781.4      |
+| lever-pull  |    translation         | strong               | 0.40       |    5042.3      |
+| lever-pull  | zoom         | strong               | 0.30       |      4781.4     |
+
 
 ## Future Works
 
