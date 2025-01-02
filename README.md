@@ -57,7 +57,7 @@ from metaworld_env_wrapper import setup_metaworld_env
 import imageio
 
 # Set up the environment with a specific camera mode
-viewpoint_mode = 'translation'  # Options: 'shake', 'translation', 'zoom', 'rotation', 'controlled'
+viewpoint_mode = 'controlled'  # Options: 'shake', 'translation', 'zoom', 'rotation', 'controlled'
 viewpoint_randomization_type = 'strong'  # Options: 'weak', 'medium', 'strong'
 env = setup_metaworld_env('button-press-v2-goal-observable', seed=10, size=64, viewpoint_mode=viewpoint_mode, viewpoint_randomization_type=viewpoint_randomization_type)
 
